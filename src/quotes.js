@@ -9,7 +9,7 @@ function getRandomSeinfeldQuote() {
 
 // ZEN QUOTES:
 function getRandomZenQuote() {
-    const url = 'https://zenquotes.io/api/random/'
+    const url = 'https://zenquotes.io/api/random'
     fetch(url, {
         method: 'GET',
         mode: 'cors',
@@ -19,5 +19,5 @@ function getRandomZenQuote() {
         .then(data => console.log(data))
 }
 
-getRandomSeinfeldQuote();
+// getRandomSeinfeldQuote();
 // getRandomZenQuote();
